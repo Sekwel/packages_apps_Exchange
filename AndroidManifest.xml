@@ -149,6 +149,7 @@
         <receiver android:name="ExchangeBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
+                <action android:name="com.android.exchange.ACTION_SEND_CALENDAR_RESPONSE" />
             </intent-filter>
         </receiver>
 
