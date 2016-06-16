@@ -166,7 +166,7 @@ public class EasSyncMail extends EasSyncCollectionTypeBase {
                 return Eas.FILTER_ALL;
             default:
                 // Auto window is deprecated and will also use the default.
-                return Eas.FILTER_1_WEEK;
+                return Eas.FILTER_1_DAY;
         }
     }
 }
